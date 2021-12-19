@@ -20,7 +20,7 @@ public class PostApiTest {
 
                 .then()
                 .statusCode(200)
-                .body("headers", equalTo("some data"))
+                .body("data", equalTo("some data"))
         ;
 
     }
